@@ -2,10 +2,10 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
-.div.container{
-    width: 1254px;
+.container{
+    width: 1255px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding:0 15px;
 }
 ul{
     list-style: none;
@@ -20,6 +20,6 @@ a{
     text-decoration: none;
 }
 img{
-    width: 100%;
+    max-width:100%;
     display: block;
 }
