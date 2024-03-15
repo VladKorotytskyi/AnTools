@@ -1,232 +1,284 @@
-:root{
-  --logo-color: #FF6E30;
-  --background-color: #1E252B;
-  --title-color: #FFFFFF;
+:root {
+  --logo-color: #ff6e30;
+  --background-color: #1e252b;
+  --title-color: #ffffff;
   --text-color: rgba(255, 255, 255, 0.55);
-  --text-hower-color:rgba(255, 255, 255, 0.78);
-  --text-input-color: #837A93;
+  --text-hower-color: rgba(255, 255, 255, 0.78);
+  --text-input-color: #837a93;
 }
 .roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 14px;
+  background-color: var(--background-color);
+}
+.logo {
+  color: var(--title-color);
+  font-weight: 600;
+  font-size: 22px;
+}
+.link {
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.55);
+}
+.header-btn {
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.55);
+  background-color: var(--background-color);
+  cursor: pointer;
+}
+.btn {
+  border: none;
+  width: 118px;
+  height: 48px;
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--title-color);
+  background-color: var(--logo-color);
+  border-radius: 8px;
+}
+.title {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 140%;
+  color: rgba(255, 255, 255, 0.9);
+}
+.text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 167%;
+  color: rgba(255, 255, 255, 0.55);
+}
+.input {
+  border-radius: 15px;
+  width: 497px;
+  height: 64px;
+  background: #283036;
+  border: none;
+}
+.button {
+  border-radius: 8px;
+  width: 130px;
+  height: 48px;
+  background-color: var(--logo-color);
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  border: none;
+}
+.tools-title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 130%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+.tools-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 167%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.55);
+}
+.tools-subtitle {
+  font-weight: 500;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.78);
+}
+.tools-item-text {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  color: rgba(255, 165, 55, 0.55);
+}
+.tools-item-lorem {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 187%;
+  color: rgba(255, 255, 255, 0.55);
+}
+.tools-btn {
+  width: 106px;
+  height: 42px;
+  background-color: var(--background-color);
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.55);
+}
+.tools-button {
+  width: 184px;
+  height: 64px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #ff6e30;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  background: #1e252b;
+}
+.brand-title {
+  width: 1059px;
+  height: 142px;
+  font-weight: 500;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.antools-title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 130%;
+  color: rgba(255, 255, 255, 0.9);
+}
+.antools-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 167%;
+  color: rgba(255, 255, 255, 0.55);
+}
+.antools-btn {
+  width: 198px;
+  height: 58px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 8px;
+  background: #ff6e30;
+  border: none;
+}
+.ronald-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 214%;
+  letter-spacing: 0.01em;
+  color: rgba(255, 255, 255, 0.78);
+}
+.join-title {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 130%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+.join-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 167%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.55);
+}
+.join-input {
+  width: 549px;
+  height: 64px;
+  border-radius: 8px;
+  background: #283036;
+  border: none;
+}
+.join-btn {
+  width: 130px;
+  height: 48px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 8px;
+  background: #ff6e30;
+  border: none;
+}
+.antools-subtitle {
+  font-weight: 500;
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.78);
+}
+.footer-title {
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.9);
+}
+.footer-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 179%;
+  color: rgba(255, 255, 255, 0.55);
+}
+.footer-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.9);
+}
+.footer-item-text{
+  font-weight: 500;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.55);
+}
+.header{
+  margin-top: 31px;
+  margin-bottom: 104px;
+}
+.hero{
+  background-image: url(../img/maskgroup.webp) ;
+}
+.title{
+  margin-bottom: 30px;
+}
+.text{
+  margin-bottom: 60px;
+}
+.button{
+  margin-bottom: 110px;
+}
+.tools-title{
+   margin-top: 200px;
+   margin-bottom: 20px;
+}
+.tools-text{
+  margin-bottom: 90px;
+}
+.tools-item{
+  margin-bottom: 133px;
+}
+.tools-button{
+  margin-bottom: 200px;
+}
   
-  .roboto-medium {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .roboto-bold {
-    font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  .poppins-regular {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .poppins-medium {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .poppins-semibold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-    body{
-        font-family: "Poppins", sans-serif;
-        font-weight: 500;
-        font-style: normal; 
-        font-size: 14px;
-        background-color: var(--background-color);
-    }
-    .logo{
-      color: var(--title-color);
-      font-weight: 600;
-      font-size: 22px;
-    }
-    .link{
-      font-weight: 500;
-      font-size: 16px;
-      color: rgba(255, 255, 255, 0.55);
-    }
-    .header-btn{
-      border: none;
-      font-weight: 600;
-      font-size: 16px;
-      color: rgba(255, 255, 255, 0.55);
-      background-color: var(--background-color);
-      cursor:  pointer;
-    }
-    .btn{
-      border: none;
-      width: 118px;
-      height: 48px;
-      font-weight: 600;
-      font-size: 16px;
-      color: var(--title-color);
-      background-color: var(--logo-color);
-      border-radius: 8px;
-    }
-    .title{
-      font-weight: 500;
-      font-size: 50px;
-      line-height: 140%;
-      color: rgba(255, 255, 255, 0.9);
-    }
-    .text{
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 167%; 
-      color: rgba(255, 255, 255, 0.55);
-    }
-    .input{
-      border-radius: 15px;
-      width: 497px;
-      height: 64px;
-      background: #283036;
-      border: none;
-    }
-    .button{
-      border-radius: 8px;
-      width: 130px;
-      height: 48px;
-      background-color: var(--logo-color);
-      font-weight: 600;
-      font-size: 16px;
-      color: #fff;
-      border: none;
-    }
-    .tools-title{
-      font-weight: 500;
-      font-size: 48px;
-      line-height: 130%;
-      text-align: center;
-      color: rgba(255, 255, 255, 0.9);
-    }
-    .tools-text{
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 167%;
-    text-align: center;
-    color: rgba(255, 255, 255, 0.55);
-    }
-    .tools-subtitle{
-      font-weight: 500;
-      font-size: 24px;
-      color: rgba(255, 255, 255, 0.78);
-    }
-    .tools-item-text{
-      font-family: "Poppins", sans-serif;
-      font-weight: 400;
-      font-style: normal;
-      font-size: 18px;
-      color: rgba(255, 165, 55, 0.55);
-    }
-    .tools-item-lorem{
-      font-family: "Poppins", sans-serif;
-      font-weight: 400;
-      font-style: normal;
-      font-size: 16px;
-      line-height: 187%;
-      color: rgba(255, 255, 255, 0.55);
-    }
-    .tools-btn{
-      width: 106px;
-      height: 42px;
-      background-color: var(--background-color);
-      border: none;
-      font-weight: 600;
-      font-size: 16px;
-      color: rgba(255, 255, 255, 0.55);
-    }
-    .tools-button{
-      width: 184px;
-      height: 64px;
-      font-weight: 500;
-      font-size: 20px;
-      color: #ff6e30;
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      border-radius: 8px;
-      background: #1e252b;
-    }
-    .brand-title{
-      width: 1059px;
-      height: 142px;
-      font-weight: 500;
-      font-size: 24px;
-      color: rgba(255, 255, 255, 0.8);
-    }
-    .antools-title{
-      font-weight: 500;
-      font-size: 48px;
-      line-height: 130%;
-      color: rgba(255, 255, 255, 0.9);
-    }
-    .antools-text{
-      font-weight: 500;
-      font-size: 18px;
-      line-height: 167%;
-      color: rgba(255, 255, 255, 0.55);
-    }
-    .antools-btn{
-      width: 198px;
-      height: 58px;
-      font-weight: 500;
-      font-size: 18px;
-      color: #fff;
-      border-radius: 8px;
-      background: #ff6e30;
-      border: none;
-    }
-    .ronald-text{
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 214%;
-      letter-spacing: 0.01em;
-      color: rgba(255, 255, 255, 0.78);
-    }
-    .join-title{
-      font-weight: 500;
-      font-size: 48px;
-      line-height: 130%;
-      text-align: center;
-      color: rgba(255, 255, 255, 0.9);
-    }
-    .join-text{
-      font-weight: 500;
-      font-size: 18px;
-      line-height: 167%;
-      text-align: center;
-      color: rgba(255, 255, 255, 0.55);
-    }
-    .join-input{
-      width: 549px;
-      height: 64px;
-      border-radius: 8px;
-      background: #283036;
-      border: none;
-    }
-    .join-btn{
-      width: 130px;
-      height: 48px;
-      font-weight: 600;
-      font-size: 16px;
-      color: #fff;
-      border-radius: 8px;
-      background: #ff6e30;
-      border: none;
-    }
-    .antools-subtitle{
-      font-weight: 500;
-      font-size: 24px;
-      color: rgba(255, 255, 255, 0.78);
-    }
-    
+
+
