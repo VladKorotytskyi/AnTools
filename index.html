@@ -23,20 +23,23 @@
   <body>
     <header class="header">
       <div class="container header-wrap">
-        <img src="./img/logo.webp" alt="logo" />
+        <div class="logo-wrap">
+          <img src="./img/logo.webp" alt="logo" />
           <a class="logo" href="index.html">antools.</a>
+        </div>
         <nav class="nav">
           <ul class="list">
             <li class="item"><a class="link" href="index.html">Home</a></li>
             <li class="item"><a class="link" href="#">Categories</a></li>
             <li class="item"><a class="link" href="#">My Collections</a></li>
             <li class="item"><a class="link" href="#">Blog</a></li>
-            <ul class="list">
-              <li class="item"><button class="header-btn">Login</button></li>
-              <li class="item"><button class="btn">Sign up</button></li>
-            </ul>
+            
           </ul>
         </nav>
+        <ul class="button-list">
+          <li class="item"><button class="header-btn">Login</button></li>
+          <li class="item"><button class="btn">Sign up</button></li>
+        </ul>
       </div>
     </header>
     <main class="main">
@@ -50,19 +53,24 @@
             Antool is a web collection of information on paid or <br />
             free Design and Development tools
           </p>
-          <img src="./img/search.webp" alt="search" />
-          <form class="form">
-            <input
-              class="input"
-              type="text"
-              placeholder="find more than 430+ tools..."
-            />
-          </form>
-          <button class="button">Search</button>
-          <img src="./img/facebook.webp" alt="facebook" /><img
+          <div class="form-wrap">
+            <img src="./img/search.webp" alt="search" />
+            <form class="form">
+              <input       
+                class="input"
+                type="text"
+                placeholder="find more than 430+ tools..."
+              />
+            </form>
+            <button class="button">Search</button>
+          </div>
+          <div class="img-wrap">
+            <img src="./img/facebook.webp" alt="facebook" /><img
             src="./img/instagram.webp"
             alt="instagram"
           /><img src="./img/twiter.webp" alt="twiter" />
+          </div>
+          
         </div>
       </section>
       <section class="tools">
@@ -194,7 +202,9 @@
               <button class="tools-btn">Visit</button>
             </li>
           </ul>
-          <button class="tools-button">Load more</button>
+          <div class="button-wrap">
+            <button class="tools-button">Load more</button>
+          </div>
         </div>
       </section>
       <section class="section-brand">
@@ -318,7 +328,7 @@
         </div>
       </section>
       <section class="ronald">
-        <div class="container">
+        <div class="container ronald-wrap">
           <h1 hidden>hello</h1>
           <img class="ronald-img" src="./img/ronald.webp" alt="Ronald" />
           <p class="ronald-text">
@@ -353,9 +363,10 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <a class="logo" href="index.html"
-          ><img src="./img/logo.webp" alt="logo" />antools.</a
-        >
+        <div class="logo-wrap">
+          <img src="./img/logo.webp" alt="logo" />
+          <a class="logo" href="index.html">antools.</a>
+        </div>
         <h3 class="footer-title">Copyright 2021. Antools</h3>
         <p class="footer-text">
           Antool is a web collection of <br />
