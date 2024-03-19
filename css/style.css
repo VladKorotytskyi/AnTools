@@ -279,6 +279,14 @@ body {
 .tools-button{
   margin-bottom: 200px;
 }
-  
+.header-wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list{
+  display: flex;
+  justify-content: space-between;
+}
 
 
