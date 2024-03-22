@@ -91,7 +91,7 @@ body {
 }
 .input {
   border-radius: 15px;
-  width: 390px;
+  width: 549px;
   height: 64px;
   background: #283036;
   border: none;
@@ -209,9 +209,9 @@ body {
   color: rgba(255, 255, 255, 0.55);
 }
 .join-input {
+  border-radius: 15px;
   width: 549px;
   height: 64px;
-  border-radius: 8px;
   background: #283036;
   border: none;
 }
@@ -224,6 +224,8 @@ body {
   border-radius: 8px;
   background: #ff6e30;
   border: none;
+  margin-left: -140px;
+  margin-top: 9px;
 }
 .antools-subtitle {
   font-weight: 500;
@@ -311,7 +313,7 @@ body {
 .tools-item:focus{
   background-color:#262f37;
   border-radius: 30px;
-
+  background-image: linear-gradient(to top right, #262f37 75%, rgba(255, 128, 0, 0.252));
 }
 .button-wrap{
   display: flex;
@@ -329,7 +331,7 @@ body {
   display: flex;
 }
 .ronald-text{
-  margin-top: 100px;
+  margin-top: 307px;
   margin-left: 50px;
 }
 .foooter-wrap{
@@ -346,6 +348,8 @@ body {
 .antools-list{
   display: flex;
   flex-wrap: wrap;
+  gap: 108px;
+  justify-content: center;
 }
 .form-wrap{
   display: flex;
@@ -354,4 +358,87 @@ body {
   display: flex;
   justify-content: center;
 }
-
+.antools-wrap{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-wrap{
+  display: flex;
+  justify-content: space-between;
+}
+.item-wrap{
+  display: flex;
+  flex-direction: column;
+}
+.item-box{
+  display: flex;
+}
+.wrap-item{
+  display: flex;
+}
+.antools-item:hover,
+.antools-item:focus{
+  background-color:#262f37;
+  border-radius: 30px;
+  background-image: linear-gradient(to top right, #262f37 75%, rgba(255, 128, 0, 0.252));
+}
+.tools-btn:hover,
+.tools-btn:focus{
+  background-color: #ff6e30;
+  border-radius: 7px;
+  color: white;
+}
+.hero-wrap{
+  display: flex;
+}
+.button{
+  margin-top: 7px;
+  margin-left: -140px;
+}
+.join-wrap{
+  display: flex;
+  justify-content: center;
+}
+.brand-img{
+  margin-bottom: 250px;
+}
+ .ronald-img{
+  margin-top: 207px;
+  margin-bottom: 351px;
+ }
+ .join-text{
+  margin-top: 25px;
+  margin-bottom: 100px;
+ }
+ .join-input{
+  margin-bottom: 310px;
+ }
+ .footer-title{
+  margin-top: 25px;
+  margin-bottom: 21px;
+ }
+ .tools-img{
+  padding-right: 25px;
+  padding-bottom: 29px;
+  margin-left: 33px;
+  margin-top: 33px;
+ }
+ .tools-subtitle{
+  padding-bottom: 7px;
+  margin-top: 33px;
+ }
+ .tools-item-lorem{
+  padding-bottom: 30px;
+  margin-left: 33px;
+  margin-right: 33px;
+ }
+ .tools-img-second{
+  width: 42px;
+  height: 42px;
+  margin-left: 33px;
+ }
+ .tools-btn{
+  margin-left: 124px;
+  margin-bottom: 33px;
+  margin-right: 33px;
+ }
