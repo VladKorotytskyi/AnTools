@@ -76,6 +76,7 @@ body {
   color: var(--title-color);
   background-color: var(--logo-color);
   border-radius: 8px;
+  cursor: pointer;
 }
 .title {
   font-weight: 500;
@@ -105,6 +106,7 @@ body {
   font-size: 16px;
   color: #fff;
   border: none;
+  cursor: pointer;
 }
 .tools-title {
   font-weight: 500;
@@ -148,6 +150,7 @@ body {
   font-weight: 600;
   font-size: 16px;
   color: rgba(255, 255, 255, 0.55);
+  cursor: pointer;
 }
 .tools-button {
   width: 184px;
@@ -158,6 +161,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 8px;
   background: #1e252b;
+  cursor: pointer;
 }
 .brand-title {
   height: 142px;
@@ -186,6 +190,7 @@ body {
   border-radius: 8px;
   background: #ff6e30;
   border: none;
+  cursor: pointer;
 }
 .ronald-text {
   font-weight: 400;
@@ -226,6 +231,7 @@ body {
   border: none;
   margin-left: -140px;
   margin-top: 9px;
+  cursor: pointer;
 }
 .antools-subtitle {
   font-weight: 500;
@@ -259,6 +265,7 @@ body {
 }
 .hero{
   background-image: url(../img/maskgroup.webp) ;
+  background-repeat: no-repeat;
 }
 .title{
   margin-bottom: 30px;
@@ -441,4 +448,55 @@ body {
   margin-left: 124px;
   margin-bottom: 33px;
   margin-right: 33px;
+ }
+ .antools-subtext{
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 167%;
+  color: rgba(255, 255, 255, 0.55);
+  margin-top: 30px;
+  margin-bottom: 60px;
+ }
+ .antools-img-second{
+  width: 42px;
+  height: 42px;
+  padding-left: 22px;
+  margin-top: 30px;
+ }
+ .antools-text{
+  padding-left: 22px;
+  margin-top: 30px;
+  margin-right: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ }
+ .antools-img{
+  padding-left: 22px;
+  padding-top: 28px;
+  padding-right: 28px;
+ }
+ .antools-button{
+  width: 106px;
+  height: 42px;
+  background-color: transparent;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.55);
+  margin-left: 43px;
+  margin-right: 21px;
+  margin-bottom: 28px;
+  margin-top: 30px;
+  cursor: pointer;
+ }
+ .antools-button:hover,
+ .antools-button:focus{
+  background-color: #ff6e30;
+  border-radius: 7px;
+  color: white;
+ }
+ .antools-subtitle{
+  padding-top: 28px;
+  padding-bottom: 7px;
  }
