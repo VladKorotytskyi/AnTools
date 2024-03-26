@@ -63,18 +63,27 @@ body {
   border: none;
   font-weight: 600;
   font-size: 16px;
+  width: 118px;
+  height: 48px;
   color: rgba(255, 255, 255, 0.55);
   background-color: var(--background-color);
+  border-radius: 8px;
   cursor: pointer;
 }
+.header-btn:hover,
+ .header-btn:focus{
+  background-color: #ff6e30;
+  color: #ffffff;
+  cursor: pointer;
+ }
 .btn {
   border: none;
   width: 118px;
   height: 48px;
   font-weight: 600;
   font-size: 16px;
-  color: var(--title-color);
-  background-color: var(--logo-color);
+  color: rgba(255, 255, 255, 0.55);
+  background-color: transparent;
   border-radius: 8px;
   cursor: pointer;
 }
@@ -500,3 +509,25 @@ body {
   padding-top: 28px;
   padding-bottom: 7px;
  }
+ .link:hover,
+ .link:focus{
+  color: #ff6e30;
+ }
+ 
+ .btn:hover,
+ .btn:focus{
+  background-color: #ff6e30;
+  border: none;
+  width: 118px;
+  height: 48px;
+  color: #ffffff;
+  border-radius: 8px;
+  cursor: pointer;
+ }
+ .footer-text:hover,
+ .footer-text:focus{
+  color: #ff6e30;
+  cursor: pointer;
+ }
+
+
