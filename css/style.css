@@ -58,6 +58,8 @@ body {
   font-weight: 500;
   font-size: 16px;
   color: rgba(255, 255, 255, 0.55);
+  display: flex;
+  align-items: center;
 }
 .header-btn {
   border: none;
@@ -529,5 +531,31 @@ body {
   color: #ff6e30;
   cursor: pointer;
  }
-
+ .logo-icon{
+  width: 38px;
+  height: 38px;
+  fill: #ff6e30;
+ }
+ .logo-icon:hover,
+ .logo-icon:focus{
+  fill-opacity: 0.9;
+ }
+ .arrow-icon{
+  width: 18px;
+  height: 18px;
+  fill: #837a93;
+ }
+ .arrow-icon:hover,
+ .arrow-icon:focus{
+  fill: #ff6e30;
+ }
+ .img-icon{
+  width: 34px;
+  height: 34px;
+  fill: white;
+ }
+ .img-icon:hover,
+ .img-icon:focus{
+  fill: #ff6e30;
+ }
 
